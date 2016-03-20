@@ -6,16 +6,20 @@
 	overflow-y: scroll;
 	color: #FF0000;
 	background-color: black;
-	color: white;
 }
-
+.img_size{
+	height: auto; 
+    width: auto; 
+    max-width: 800px; 
+    max-height: 1280px;
+}
 .tool_area {
 	position: fixed;
 	z-index: 100;
 	min-width: 1200px;
 	width: 100%;
 	height: 50px;
-	background: ##2f2f2f;
+	background: #2f2f2f;
 	font-size: 24px;
 	font-weight: normal;
 	color: #fff;
