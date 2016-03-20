@@ -39,7 +39,7 @@
 .tool_area .subj_episode {
 	position: absolute;
 	top: 12px;
-	font-size: 17px;
+	font-size: 24px;
 	text-align: left;
 	width: 250px;
 	z-index: 100;
@@ -50,9 +50,10 @@
 }
 .tool_area .next {
 	position: relative;
+	font-size: 24px;
 	top: 2px;
 	text-align: right;
-	width: 150px;
+	width: 250px;
 	z-index: 100;
 	color: #fff;
 	height: 48px;
@@ -61,6 +62,7 @@
 }
 .tool_area .prev {
 	position: relative;
+	font-size: 24px;
 	top: 2px;
 	text-align: left;
 	width: 150px;
@@ -72,6 +74,7 @@
 }
 .tool_area .home{
 	position: relative;
+	font-size: 24px;
 	top: 2px;
 	text-align: center;
 	width: 150px;
