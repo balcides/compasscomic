@@ -1,0 +1,56 @@
+@charset "UTF-8";
+.wrapper{
+	margin: 0 auto; /**centers page on screen**/
+	text-align: center; /**centers older browsers**/
+	overflow-x: hidden;
+	color: #FF0000;
+	background-color: black;
+	color: white;
+}
+
+.tool_area {
+	position: fixed;
+	z-index: 100;
+	min-width: 1200px;
+	width: 100%;
+	height: 50px;
+	background: ##2f2f2f;
+	font-size: 24px;
+	font-weight: normal;
+	color: #fff;
+	opacity: 100%;
+}
+
+.tool_area .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    z-index: 100;
+}
+.tool_area .next {
+	position: relative;
+	top: 2px;
+	text-align: right;
+	width: 150px;
+	z-index: 100;
+	color: #fff;
+	height: 48px;
+	right: -20%;
+}
+.tool_area .subj_episode {
+	position: center;
+	margin-top: 1px;
+	font-size: 24px;
+	vertical-align: top;
+	text-align: center;
+	width:auto;
+}
+
+.tool_area .bkg_bar{
+	vertical-align: top;
+	width: 100%;
+	height: 100%;
+	resize: horizontal;
+	text-align: center;
+}
